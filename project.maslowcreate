@@ -23,14 +23,63 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 558,
+                    "y": 129,
+                    "uniqueID": 716270,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 652,
+                    "y": 180,
+                    "uniqueID": 962569,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 311678",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 787390",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1390,
-                    "y": 191,
+                    "x": 984,
+                    "y": 149,
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 659681,
+                    "ap2ID": 716270
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 311678",
+                    "ap1ID": 716270,
+                    "ap2ID": 962569
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 962569
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
